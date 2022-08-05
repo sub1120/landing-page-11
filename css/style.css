@@ -1,0 +1,132 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+.header, .section1, .section3, .footer{
+    margin:50px 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item{
+    display: inline-block;
+    margin:0px 10px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:#000000;
+}
+
+.tech-img1{
+    float: right;
+}
+
+.tech-img2{
+    float: left;
+}
+
+.tech-img3{
+    float: right;
+}
+
+.content{
+    display: flow-root;
+    margin:100px 0px;
+}
+
+.service-list{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.service-item{
+    width: 300px;
+}
+
+.section2{
+    background-color: #09C0F7;
+}
+
+.plan-heading{
+    text-align: center;
+}
+
+.plan-list{
+    margin:10px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-item{
+    width: 300px;
+}
+
+.review-heading{
+    text-align: center;
+}
+
+.review-subheading{
+    text-align: center;
+}
+
+.review-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+.review-item{
+    width:500px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    width: 300px;
+}
+
+.footer-nav > ul{
+    list-style-type:none;
+}
+
+.footer-nav-item{
+    margin:10px 0px;
+}
+
+.section4{
+    background-color: #09C0F7;
+}
+
+.register{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 100px;
+    padding:100px 0px;
+}
+
+.register-left{
+    width: 800px;
+}
+
+.review-author ::before{
+    content:"";
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: #1f1f1f;
+}
+
