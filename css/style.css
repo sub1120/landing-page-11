@@ -57,6 +57,10 @@
     float: right;
 }
 
+.tech-img1 img, .tech-img2 img, .tech-img3 img{
+    width: 40vw;
+}
+
 .content{
     display: flow-root;
     margin:100px 0px;
@@ -92,7 +96,7 @@
 }
 
 .service-item{
-    width: 300px;
+    width: 33%;
 }
 
 .service-heading h1{
@@ -137,7 +141,7 @@
 .plan-item{
     background-color: #fff;
     border-radius: 10px;
-    width: 340px;
+    width: 32%
 }
 
 .plan-top{
@@ -200,7 +204,7 @@
 
 .review-subheading{
     text-align: center;
-    width: 800px;
+    width: 90%;
     margin:0px auto;
     padding:20px 0px;
     color:#1f1f1f;
@@ -215,7 +219,7 @@
 }
 
 .review-item{
-    width:500px;
+    width:40%;
     box-shadow: 5px 5px 20px #b4b1b1;
     padding:30px 30px;
     border-radius: 10px;
@@ -300,4 +304,249 @@
 
 .footer-text{
     padding-top:20px;
+}
+
+@media (max-width:1200px){
+    .nav-item{
+        margin:0px 10px;
+    }
+
+    .header, .section1, .section3, .footer{
+        margin:50px 50px;
+    }
+
+    .reg{
+        border:2px solid #09C1F8;
+        border-radius: 8px;
+        padding:15px 20px;
+    }
+
+    .logo img{
+        width: 100px;
+    }
+
+    .content-heading h1{
+        font-size: 35px;
+    }
+
+    .content-text{
+        color:#ad9e9e;
+        padding:20px 0px;
+    }
+    
+    
+    .service-heading h1{
+        font-size: 35px;
+    }
+
+    .tech-img1, .tech-img3{
+        margin-left: 20px;
+    }
+
+    .tech-img2{
+        margin-right: 20px;
+    }
+
+    .service-list{
+        height: 720px;
+    }
+
+    .service-item{
+        width: 45%;
+    }
+
+    .plan-list{
+        margin:10px 0px;
+    }
+
+    .review-list{
+        height: 600px;
+    }
+    
+    .register{
+        margin: 0px 50px;
+    }
+
+    .footer-logo{
+        width: 220px;
+    }
+}
+
+@media (max-width:900px){
+    .nav-link{
+        display: none;
+    }
+
+    .nav-item.reg .nav-link{
+        display: block;
+    }
+
+    .reg{
+        font-size: 15px;
+        padding:10px 15px;
+    }
+
+    .header, .section1, .section3, .footer{
+        margin:30px 30px;
+    }
+
+    .tech-img1, .tech-img2, .tech-img3{
+        float: unset;
+    } 
+
+    .tech-img1 img, .tech-img2 img, .tech-img3 img{
+        width: 95%;
+    } 
+
+    .content-heading h1{
+        font-size: 25px;
+    }
+
+    .content-text p{
+        font-size: 15px;
+    }
+
+    .service-list{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: unset;
+    }
+
+    .service-heading h1{
+        font-size: 25px;
+    }
+
+    .service-item{
+        width:100%;
+        margin:10px 0px;
+    }
+
+    .service-item h3{
+        font-size: 18px;
+        padding:5px 0px;
+    }
+    
+    .service-item p{
+        font-size: 15px;
+    }
+
+    .plan-heading h1{
+        font-size: 25px;
+    }
+
+    .plan-list{
+        flex-direction: column;
+    }
+
+    .plan-item{
+        width: 100%;
+        margin:10px 0px;
+    }
+
+    .plan-top{
+        padding:20px 20px 10px 20px;
+    }
+    
+    .plan-bottom{
+        padding:10px 20px 20px 10px;
+    }
+    
+    .plan-name{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .plan-for{
+        font-size: 15px;
+    }
+    
+    
+    .benifit-list ul{
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 10px;
+    }
+
+    .benifit-item{
+        font-size: 15px;
+        margin: 0px 15px;
+    }
+    
+    .plan-price{
+        margin:20px 0px;
+    }
+    
+    .choose-plan button{
+        padding:10px 20px;
+    }
+
+    .plans{
+        padding:30px;
+    }
+
+    .review-heading{
+        font-size: 25px;
+    }
+
+    .review-subheading{
+        font-size: 15px;
+    }
+
+    .review-list{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: unset;
+    }
+
+    .review-item{
+        width: 85%;
+        margin: 20px 0px;
+    }
+
+    .register{
+        flex-direction: column;
+        margin:0px 30px;
+        padding:30px 0px;
+    }
+    
+    .register button{
+        padding:10px 30px;
+    }
+    
+    .register-left{
+        width: 100%
+    }
+    
+    .quote{
+        font-size: 25px;
+    }
+    
+    .subquote{
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+
+    .footer{
+        flex-wrap: wrap;
+    }
+    
+    .footer-logo{
+        display: none;
+    }
+    
+    .footer-nav > ul{
+        list-style-type:none;
+    }
+
+    .footer-nav-heading{
+        font-weight: 700;
+        font-size: 20px;
+        color: #1f1f1f;
+    }
+    
+    .footer-text{
+        padding-top:20px;
+    }
+
 }
