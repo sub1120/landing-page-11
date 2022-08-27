@@ -11,6 +11,11 @@
     width: 120px;
 }
 
+.menu img{
+    display: none;
+    width: 30px;
+}
+
 .header, .section1, .section3, .footer{
     margin:50px 100px;
 }
@@ -315,12 +320,6 @@
         margin:50px 50px;
     }
 
-    .reg{
-        border:2px solid #09C1F8;
-        border-radius: 8px;
-        padding:15px 20px;
-    }
-
     .logo img{
         width: 100px;
     }
@@ -377,13 +376,12 @@
         display: none;
     }
 
-    .nav-item.reg .nav-link{
+    .menu img{
         display: block;
     }
-
-    .reg{
-        font-size: 15px;
-        padding:10px 15px;
+    
+    .nav-item.reg .nav-link, .reg{
+        display: none;
     }
 
     .header, .section1, .section3, .footer{
